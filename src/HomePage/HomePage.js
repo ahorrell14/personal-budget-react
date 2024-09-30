@@ -1,4 +1,5 @@
 import React from "react";
+import BudgetChart from './BudgetChart';
 
 function HomePage() {
   return (
@@ -65,9 +66,7 @@ function HomePage() {
 
         <article>
           <h1>Chart</h1>
-          <p>
-            <canvas id="myChart" width="400" height="400"></canvas>
-          </p>
+            <BudgetChart/>
         </article>
       </div>
     </main>
